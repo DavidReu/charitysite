@@ -1,8 +1,18 @@
 /*----------------------- Header ----------------------
 */
 header {
-    background: url(images/icy-summit-of-a-mountain-on-a-frosty-night.jpg) center;
+    background: url(img/hero_credit_Zeyn_Afuang.jpg) center;
     height: 680px;
+}
+header::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0001) 85.4%);
+    
 }
 #logo {
     width: 10%;
@@ -36,6 +46,7 @@ header a {
 }
 .jumbotron{
     margin-top: 8rem;
+    z-index: 1;
 }
 
 /*------------------------------------------*/
@@ -85,7 +96,8 @@ header a {
 /*
     <!--------------------------- galery ------------------------------------>*/
     #gallery{
-        height: 382px;
+        height: 600px;
+        /* height: 382px; */
         /* position: relative; */
         
     }
@@ -224,6 +236,38 @@ header a {
     <!--------------------------- donate ------------------------------------>*/
     .btn-success, .text-success{
         background-color: #0E6248!important;
+    }
+    .donate-text{
+        margin-left:19rem!important;
+        height: 340px;
+  
+    }
+    .donate-p {
+        width: 440px;
+    }
+    .donate-form{
+        width: 380px;
+        height: 340px;
+        background: #FFFFFF;
+        border: 1px solid #FBF8F6;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 20px rgba(16, 114, 83, 0.16);
+        border-radius: 4px;
+    }
+    .form-control{
+        width: 332px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    label{
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-left: 25px;
     }
     /*<!----------------------------------------------------------------------->
 */
