@@ -57,23 +57,28 @@ header a {
 
 /*
     <!------------------------- What we do ---------------------------------->*/
-    .boutonVonlunteer{
+.boutonVonlunteer{
         margin-bottom: 50px!important;
         margin-top: 150px!important;
         display:flex;
         justify-content: flex-end;
         
         
-    }
-    .card-img-top{
+}
+.card-img-top{
         margin-left: 25px!important;
         margin-top: -25px!important;
-    }
+}
      /*<!----------------------------------------------------------------------->
 */
 
 /*
     <!-------------------------- stats -------------------------------------->
+*/
+#stats{
+    background: #FBF8F6;
+}
+/*
     <!----------------------------------------------------------------------->
 */
 
@@ -126,14 +131,25 @@ header a {
         margin-left: auto!important;
         margin-right: auto!important;
     }
+    .become-btn{
+        font-size: 13px;
+        height: 30px;
+        width: 150px;
+    }
     .learn-more{
-        margin-left: 2rem!important;
+        margin-left: 25px!important;
+        font-size: 13px;
+        height: 30px;
+        width: 100px;
     }
     
     
 /*------------------------*/
 /*
-    <!------------------------- quick info ---------------------------------->
+    <!---------------------- quick info ------------------------------->
+*/
+
+/*
     <!----------------------------------------------------------------------->
 */
 
@@ -143,7 +159,7 @@ header a {
         margin-bottom: 15px!important;
         margin-top: 50px!important;
     }
-.card-img-top{
+    .card-img-top{
     margin-left: 0px!important;
     margin-top: 0px!important;
 }
@@ -186,10 +202,46 @@ header a {
 @media (max-width:576px){  /* MOBILE */
     /*
     <!-------------------------- Header ------------------------------------->
+*/
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+}
+.jumbotron h1 {
+    font-size: 25px!important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.two-btn{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.become-btn{
+    margin-right: 1rem!important;
+}
+.learn-more{
+    margin-left: 0rem!important;
+}
+
+/*
     <!----------------------------------------------------------------------->
 */
 /*
-    <!------------------------- quick info ---------------------------------->
+    <!------------------------ quick info --------------------------->
+*/
+    #quick-info{
+        height: 70px;
+    }
+    .quick {
+        font-size: 11px;
+        margin-top: 15px!important;
+        margin-bottom: 2rem!important;
+    }
+/*
     <!----------------------------------------------------------------------->
 */
 
