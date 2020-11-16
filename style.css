@@ -83,13 +83,149 @@ header a {
 */
 
 /*
-    <!--------------------------- galery ------------------------------------>
-    <!----------------------------------------------------------------------->
+    <!--------------------------- galery ------------------------------------>*/
+    #gallery{
+        height: 382px;
+        /* position: relative; */
+        
+    }
+    #gallery_1{
+        position: absolute;
+        width: 240px;
+        height: 320px;
+        left: 320px;
+        top: 1829px;
+        background: url(img/gallery_1.jpg);
+        border-radius: 8px;
+    }
+    #gallery_2{
+        position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 164px;
+    top: 1819px;
+    
+    background: url(img/gallery_2.jpg);
+    border-radius: 8px;
+    }
+    #gallery_10{
+        position: absolute;
+        width: 200px;
+        height: 160px;
+        left: 84px;
+        top: 1985px;
+        
+        background: url(img/gallery_10.jpg);
+        border-radius: 8px;
+    }
+    #gallery_13{
+        position: absolute;
+        width: 336px;
+        height: 144px;
+        left: -208px;
+        top: 1805px;
+        
+        background: url(img/gallery_13.jpg);
+        border-radius: 8px;
+    }
+    #gallery_7{
+        position: absolute;
+    width: 160px;
+    height: 160px;
+    left: -112px;
+    top: 1975px;
+    
+    background: url(img/gallery_7.jpg);
+    border-radius: 8px;
+    }
+    #gallery_12{
+        position: absolute;
+        width: 336px;
+        height: 144px;
+        left: 606px;
+        top: 1805px;
+        
+        background: url(img/gallery_12.jpg);
+        border-radius: 8px;
+    }
+    #gallery_4{
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left: 593px;
+        top: 1975px;   
+        background: url(img/gallery_4.jpg);
+        border-radius: 8px;
+    }
+    #gallery_8{
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left: 782px;
+        top: 1995px;
+        
+        background: url(img/gallery_8.jpg);
+        border-radius: 8px;
+    }
+    #gallery_9{
+        position: absolute;
+        width: 160px;
+        height: 306px;
+        left: 978px;
+        top: 1851px;
+        
+        background: url(img/gallery_9.jpg);
+        border-radius: 8px;
+    }
+    #gallery_3{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        left: 1174px;
+        top: 1815px;
+        
+        background: url(img/gallery_3.jpg);
+        border-radius: 8px;
+    }
+    #gallery_6{
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left: 1174px;
+        top: 1981px;
+        
+        background: url(img/gallery_6.jpg);
+        border-radius: 8px;
+    
+    }
+    #gallery_11{
+        position: absolute;
+        width: 200px;
+        height: 120px;
+        left: 1330px;
+        top: 1805px;
+        
+        background: url(img/gallery_11.jpg);
+        border-radius: 8px;
+    }
+    #gallery_5{
+        position: absolute;
+        width: 160px;
+        height: 216px;
+        left: 1370px;
+        top: 1951px;    
+        background: url(img/gallery_5.jpg);
+        border-radius: 8px;
+    }
+    /*<!----------------------------------------------------------------------->
 */
 
 /*
-    <!--------------------------- donate ------------------------------------>
-    <!----------------------------------------------------------------------->
+    <!--------------------------- donate ------------------------------------>*/
+    .btn-success, .text-success{
+        background-color: #0E6248!important;
+    }
+    /*<!----------------------------------------------------------------------->
 */
     
 /*
@@ -98,8 +234,12 @@ header a {
 */
 
 /*    
-    <!------------------------ newsletter ----------------------------------->
-    <!----------------------------------------------------------------------->
+    <!------------------------ newsletter ----------------------------------->*/
+    .formulaireEmail{
+       border-radius: 8px; 
+       background-color: #0E6248;
+    }
+   /* <!----------------------------------------------------------------------->
 */
 
 /*
@@ -188,8 +328,9 @@ header a {
 */
 
 /*    
-    <!------------------------ newsletter ----------------------------------->
-    <!----------------------------------------------------------------------->
+    <!------------------------ newsletter ----------------------------------->*/
+
+    /*<!----------------------------------------------------------------------->
 */
 
 /*
@@ -290,8 +431,11 @@ header a {
 */
 
 /*    
-    <!------------------------ newsletter ----------------------------------->
-    <!----------------------------------------------------------------------->
+    <!------------------------ newsletter ----------------------------------->*/
+    .inputEmail{
+        width: 100px!important;
+    }
+    /*<!----------------------------------------------------------------------->
 */
 
 /*
