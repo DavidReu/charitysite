@@ -34,6 +34,9 @@ header a {
 .navbar-toggler{
     background: rgba(255, 255, 255, 0.5);
 }
+.jumbotron{
+    margin-top: 8rem;
+}
 
 /*------------------------------------------*/
 /*
@@ -108,6 +111,21 @@ header a {
         width: 20%;
         text-align: center;
     }
+    .jumbotron {
+        display: flex;
+        flex-direction: column;
+    }
+    .two-btn{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .learn-more{
+        margin-left: 2rem!important;
+    }
+    
     
 /*------------------------*/
 /*
