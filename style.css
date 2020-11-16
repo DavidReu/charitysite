@@ -34,9 +34,20 @@ header a {
 .navbar-toggler{
     background: rgba(255, 255, 255, 0.5);
 }
+
 /*------------------------------------------*/
 /*
     <!------------------------- quick info ---------------------------------->
+*/
+#quick-info{
+    background: #FBF8F6;
+}
+.quick{
+    width: 800px;
+    height: 44px;
+    font-size: 18px;
+}
+/*
     <!----------------------------------------------------------------------->
 */
 
@@ -86,10 +97,16 @@ header a {
     /*
     ----------------------- Header ------------------------
 */
-    .navbar-collapse{
-        display: inline-flex;
+    nav li a {
+        font-size: 14px;
     }
-
+    #logo {
+        font-size: 14px;
+        padding-top: 2rem;
+        width: 20%;
+        text-align: center;
+    }
+    
 /*------------------------*/
 /*
     <!------------------------- quick info ---------------------------------->
